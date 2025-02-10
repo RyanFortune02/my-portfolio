@@ -1,0 +1,67 @@
+/* Reset styles: Get rid of browser defaults */
+* {
+    box-sizing: border-box; /* Makes padding and border part of the element's total size */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+/* Global Styles: Overall look of the page */
+body {
+    font-family: Arial, sans-serif; /* Use Arial font */
+    line-height: 1.6; /* Set line spacing for readability */
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+/* Header Styles: Top section of the page */
+header {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 1.5rem 0; /* Spacing around the text */
+    text-align: center; /* Center the content */
+}
+header h1 {
+    font-size: 2.5rem; /* Big heading */
+    margin-bottom: 0.5rem; /* Space below the heading */
+}
+
+/* Navigation Styles: The links to different sections */
+nav {
+    background-color: #444; /* Dark grey background */
+    text-align: center; /* Center the links */
+    padding: 0.5rem; /* Spacing around the links */
+}
+/* Link Styling within Navigation: How the links look */
+nav a {
+    color: #fff; /* White links */
+    margin: 0 1rem; /* Space between links */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+}
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Section Styles: Boxes for each content section */
+section {
+    background-color: #fff; /* White background */
+    margin: 1rem auto; /* Spacing around the box */
+    padding: 1.5rem; /* Spacing inside the box */
+    max-width: 1000px; /* Limit the width */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+section h2 {
+    margin-bottom: 1rem; /* Space below the heading */
+    border-bottom: 2px solid #eaeaea; /* Line below the heading */
+    padding-bottom: 0.5rem; /* Space below the line */
+}
+
+/* Footer Styles: Bottom of the page */
+footer {
+    text-align: center; /* Center the text */
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 1rem; /* Spacing around the text */
+    margin-top: 2rem; /* Space above the footer */
+}
