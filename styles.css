@@ -1,67 +1,72 @@
-/* Reset styles: Get rid of browser defaults */
+/* Reset default browser styles */
 * {
-    box-sizing: border-box; /* Makes padding and border part of the element's total size */
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Makes padding and border part of the total size */
+    margin: 0;
+    padding: 0; /* Space inside elements */
 }
 
-/* Global Styles: Overall look of the page */
+/* Basic page styling */
 body {
-    font-family: Arial, sans-serif; /* Use Arial font */
-    line-height: 1.6; /* Set line spacing for readability */
-    background-color: #f4f4f4; /* Light grey background */
-    color: #333; /* Dark grey text */
+    font-family: Arial, sans-serif; /* Sets the main font */
+    line-height: 1.6; /* Controls text spacing */
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Header Styles: Top section of the page */
+/* Header Styles */
 header {
-    background-color: #333; /* Dark background */
-    color: #fff; /* White text */
-    padding: 1.5rem 0; /* Spacing around the text */
-    text-align: center; /* Center the content */
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center; /* Centers content horizontally */
 }
+
 header h1 {
-    font-size: 2.5rem; /* Big heading */
-    margin-bottom: 0.5rem; /* Space below the heading */
+    font-size: 2.5rem; /* Sets text size */
+    margin-bottom: 0.5rem;
 }
 
-/* Navigation Styles: The links to different sections */
+/* Navigation Styles */
 nav {
-    background-color: #444; /* Dark grey background */
-    text-align: center; /* Center the links */
-    padding: 0.5rem; /* Spacing around the links */
+    background-color: #444;
+    text-align: center;
+    padding: 0.5rem;
 }
-/* Link Styling within Navigation: How the links look */
+
+/* Normal state of navigation links */
 nav a {
-    color: #fff; /* White links */
-    margin: 0 1rem; /* Space between links */
-    text-decoration: none; /* No underline */
-    font-weight: bold; /* Bold text */
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none; /* Makes links look clean without underline */
+    font-weight: bold;
 }
+
+/* What happens when you hover over navigation links */
 nav a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; /* Adds underline when mouse is over the link */
 }
 
-/* Section Styles: Boxes for each content section */
+/* Section Styles */
 section {
-    background-color: #fff; /* White background */
-    margin: 1rem auto; /* Spacing around the box */
-    padding: 1.5rem; /* Spacing inside the box */
-    max-width: 1000px; /* Limit the width */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
-}
-section h2 {
-    margin-bottom: 1rem; /* Space below the heading */
-    border-bottom: 2px solid #eaeaea; /* Line below the heading */
-    padding-bottom: 0.5rem; /* Space below the line */
+    background-color: #fff;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    max-width: 1000px; /* Limits content width */
+    border-radius: 5px; /* Rounds corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds subtle shadow */
 }
 
-/* Footer Styles: Bottom of the page */
+section h2 {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 0.5rem;
+}
+
+/* Footer Styles */
 footer {
-    text-align: center; /* Center the text */
-    background-color: #333; /* Dark background */
-    color: #fff; /* White text */
-    padding: 1rem; /* Spacing around the text */
-    margin-top: 2rem; /* Space above the footer */
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
 }
